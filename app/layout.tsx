@@ -13,6 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://projecttools-rosy.vercel.app"),
   title: {
     default: "ProjectTools - Simple & Useful Online Tools",
     template: "%s | ProjectTools",
